@@ -1,0 +1,150 @@
+
+body{
+    text-align: center;
+    background-color: white;
+}
+
+@font-face {
+    font-family: Neue Metana;
+    src: url(../fonts/NeueMetana-Regular.otf);
+    src: url(../fonts/NeueMetana-Bold.otf);
+}
+
+/* Navigation Section */
+
+.navbar{
+    padding:0 2 4.5rem;
+}
+.navbar-brand{
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-family: "Poppins";
+}
+.nav-item:hover{
+    color: #fb00b2;
+}
+.nav-link{
+font: size 1.2rem;;
+font-family: "Poppins";
+text-align: left;
+margin-left: 20px;
+margin-right: 90px;
+
+}
+.nav-link:hover{
+    color: #fb00b2;
+}
+.navbar-toggler{
+    font-size: 20px;
+    background-color: #fff;
+    
+}
+.navbar-toggler:hover{
+    color: #fb00b2;
+
+}
+
+
+/* Button Section */
+.btn{
+    background-color: #fb00b2;
+        color: #fff;
+        text-align: left;
+        margin:  1rem;
+        font-family:"Poppins";
+        font-size: 10px;
+        line-height: 1;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-weight: 30px;
+        
+    }
+    .btn:hover {
+            color: #da32aa;
+        } 
+
+        /* Mobile styles goes here */
+
+        @media (max-width:1028px) {
+           .nav-item{
+            justify-content: space-between;
+            margin: 2px;
+           }
+           
+            #title .container{
+            text-align: left;
+            }
+            
+            .pics{
+                display: none;
+            }
+            #features{
+                font-size: 10px;
+            }
+            .press-logo{
+                width: 400%;
+                padding: 1px;
+                
+            }
+            .pic{
+                display: none;
+            }
+            
+        }
+        /* Press Section */
+
+        #press{
+            justify-content: space-between;
+        }
+        .press-logo{
+            width: 250px;
+            padding: 5px;
+            padding-left: 1px;
+            border-radius: 15px;
+        }
+
+        /* Contact section */
+
+        .Message{
+            font-family: "Neue Metana";
+            color: #000;
+            font-weight: 800;
+        }
+
+        .pic{
+            width: 25%;
+            float: left;
+            margin-right: 50px;
+            margin-top: 70px;
+            margin-left: 70px;
+        }
+        
+        /* Footer section */
+    
+
+        .image{
+            width: 100%;
+            height: 80vh;
+            background-position: center;
+            background-image: url(../fonts/Rectangle\ 11\ \(1\).png);
+            margin-top: 5%;
+        }
+        .image-overlay{
+            width: 100%;
+            height: 80vh;
+            background-color: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            color: #fff;
+            align-items: center;
+            
+        }
+        .lo{
+            padding: 10% 2% 0;
+        }
+        
